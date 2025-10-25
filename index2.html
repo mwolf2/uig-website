@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>UIG</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+		/* Site-wide fixed background image with subtle dark overlay for contrast */
+		body{
+			background-image:
+			linear-gradient(rgba(10,10,20,.55), rgba(10,10,20,.55)),
+			url("images/img2.jpg");
+			background-size: cover;
+			background-position: top center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+		}
+
+		/* Let template sections sit on top of the background */
+		#wrapper.divided { background: transparent; }
+
+		/* Hide the built-in banner image (we're using the page background now) */
+		.banner .image { display: none !important; }
+
+		/* Transparent logo pinned to the top-left */
+		.site-logo{
+			position: fixed;
+			top: 20px;
+			left: 24px;
+			width: 140px;
+			height: auto;
+			z-index: 1000;
+			filter: drop-shadow(0 2px 6px rgba(0,0,0,.25));
+			pointer-events: none; /* keeps it from blocking clicks */
+		}
+
+		/* Hero text sits over the background */
+		.banner{
+			background: transparent;
+			min-height: 85vh;
+		}
+		.banner .content{
+			color: #fff;
+			text-shadow: 0 1px 2px rgba(0,0,0,.25);
+			padding-top: 24vh;
+			max-width: 44rem;
+		}
+		.banner h2{
+			font-size: clamp(28px,5vw,56px);
+			line-height: 1.1;
+			margin: 0 0 .5rem;
+			font-weight: 800;
+		}
+
+		/* Content sections get light cards so text remains readable on the photo bg */
+		.spotlight{
+			background: rgba(255,255,255,.92);
+			backdrop-filter: saturate(120%) blur(2px);
+			border-radius: 16px;
+			box-shadow: 0 8px 30px rgba(0,0,0,.08);
+			margin: 3rem auto;
+		}
+		.spotlight .content { color: #0f172a; } /* slate-900 */
+		.wrapper.style1.align-center .inner { color:#0f172a; }
+		</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<img src="images/logo-svg.svg" alt="UIG logo" class="site-logo">
+							<h2><b>Undergraduate Investment Group</b></h2>
+							<p class="major"></p>
+							
+						</div>
+						<div class="image">
+							<img src="images/img2.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>About</h2>
+							<p>UIG is dedicated to equipping students with the knowledge, skills, and experience necessary to excel in investment-related careers. 
+								Our mission is to foster a rigorous learning environment where students engage in applied investment analysis, portfolio management, 
+								and financial research to bridge the gap between academic study and real-world investing.</p>
+						</div>
+						<div class="image">
+							<img src="images/bull.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Sign Up</h2>
+							<p></p>
+							<ul class="actions stacked">
+								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe0a8MX-8xSbiJ3JmO2iD1Yh7vAQd64Alntw9Kg_aqhHHu-9Q/viewform?usp=sharing" class="button">Google Form</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/img1.jpg" alt="" />
+						</div>
+					</section>
+
+					<section class="spotlight style1 orient-left content-align-center image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Team</h2>
+							<p>some shit about ppl go here</p>
+						</div>
+						<!-- <div class="image">
+							<img src="images/img1.jpg" alt="" />
+						</div> -->
+					</section>
+
+				
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<!---
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								-->
+								<li><a href="https://www.linkedin.com/company/undergraduate-investment-group-at-asu/about/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:uigatasu@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
