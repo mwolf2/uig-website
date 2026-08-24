@@ -1,0 +1,12 @@
+ips/
+assets/Phoenix-original.jpeg
+assets/uig-logo-full.png
+assets/uig-logo-header.png
+assets/uig-logo-text.png
+assets/uig-favicon.png
+assets/Cropped Logo.png
+desktop.ini
+**/desktop.ini
+
+# Raw board source material (spreadsheet + original headshots) — not part of the site
+UIG Board/
