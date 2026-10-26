@@ -296,6 +296,7 @@ section.narrow .wrap { max-width: 800px; }
   margin-bottom: 10px;
 }
 .person .meta { font-size: 0.88rem; color: var(--ink-soft); margin-bottom: 10px; }
+.person .meta + .meta { margin-top: -6px; }
 .person .bio { font-size: 0.92rem; color: var(--ink); margin-bottom: 12px; }
 .person .linkedin {
   display: inline-block;
